@@ -1,0 +1,12 @@
+
+
+List<String> names= ['Nita','Kahna','Chan'];
+
+ pres.setListString('names',names); // Set to Store data
+
+ names= pres.getListString('names')??[]; // Get fron Store
+
+
+ String name='Sothea';
+ names.add(name);
+ pres.setListString('names',names); // Set to Store data
